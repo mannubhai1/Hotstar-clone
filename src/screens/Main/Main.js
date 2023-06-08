@@ -30,7 +30,7 @@ const Main = () => {
             </nav>
         </div>
         <div className={styles.content}>
-           <p> hello </p>
+           <p> Hello here will be the main content </p>
         </div>
         {/* <div className={styles.new}>
             <p> hello </p>
