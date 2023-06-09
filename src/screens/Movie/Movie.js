@@ -12,9 +12,14 @@ function Movie() {
       className={styles.main}
       style={{ backgroundImage: "url(" + data.movies[id].backgroundImg + ")" }}
     >
-        <Header/>
-      <img src={data.movies[id].titleImg} className={styles.bg} alt="movie logo" />
-      <button className={styles.btn1}> </button>
+      <Header />
+      <img
+        src={data.movies[id].titleImg}
+        className={styles.bg}
+        alt="movie logo"
+      />
+      <button className={styles.btn1}> Play </button>
+      <button className={styles.btn2}> Trailor </button>
       <h2 style={{ color: "white" }} className={styles.desc}>
         {data.movies[id].description}
       </h2>

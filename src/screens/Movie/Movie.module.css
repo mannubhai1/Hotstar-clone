@@ -1,23 +1,36 @@
-.main{
-    height: 100vh;
-    object-fit:contain;
-    background-repeat: initial;
-    background-size: 100vw 100vh;
-    text-align: center;
-    margin: auto;
-    overflow: hidden;
-    flex-direction:column;
-    background-repeat: no-repeat;
+.main {
+  height: 100vh;
+  object-fit: contain;
+  background-repeat: initial;
+  background-size: 100vw 100vh;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+  flex-direction: column;
+  background-repeat: no-repeat;
 }
-.desc{
-    z-index: 100;
-    size: 20vh;
-    /* color: white; */
+.desc {
+  z-index: 100;
+  size: 20vh;
+  /* color: white; */
 }
 
-.bg{
-    position: relative;
-    top: 14vh;
-    height: 40vh;
-    width: 67vh;
+.bg {
+  position: relative;
+  top: 14vh;
+  height: 40vh;
+  width: 67vh;
+}
+
+.btn1 {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px 20px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0.4vh 0.2vh;
+  cursor: pointer;
 }
