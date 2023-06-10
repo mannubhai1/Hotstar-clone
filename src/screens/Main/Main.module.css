@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainlogo{
+    max-width: 100%;
+    width: 7vw;
+    /* max-width: 130px; */
+    height: 9vh;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+
+.buttonClass {
+    font-size:18px;
+    position: relative;
+    font-family: "Inter",sans-serif;
+    width: 20vw;
+    height:28vh;
+    /* border-width: 0.5px; */
+    color:rgba(255, 215, 0, 1);
+    /* border-color:rgba(65, 88, 81, 1); */
+    /* font-weight:bold; */
+    border-top-left-radius:21px;
+    border-top-right-radius:21px;
+    border-bottom-left-radius:21px;
+    border-bottom-right-radius:21px;
+    box-shadow:inset 0px 1px 3px 0px #91b8b3;
+    text-shadow:inset 0px -1px 0px #2b665e;
+    background:linear-gradient(rgb(7, 7, 7), rgb(12, 13, 13));
+    margin-top: 20px;
+    max-width: 100%;
+    padding: 4px;
+    margin-left: 13px;
+}
+
+.buttonClass:hover {
+    background: linear-gradient(rgba(106, 114, 114, 1), rgba(87, 95, 93, 1));
+    top: -4px;
+}
+
+.big{
+    position: relative;
+    background-image: url(/public/home-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: black; */
+    overflow-x : hidden;
+}
+
+.sidebar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /* border: 3px solid #73AD21;    */
+    min-width: 1px;
+    height: 100vh;
+    width: 15vw;
+    display: inline-block;
+    overflow: hidden;
+    max-height: 100%;
+    z-index: 100;
+}
+
+.sidebar:hover{
+    background: rgb(16,16,16);
+    background: linear-gradient(90deg, rgba(16,16,16,0.9641981792717087) 57%, rgba(20,20,21,0.37419467787114895) 80%, rgba(18, 25, 25, 0.1) 100%);
+}
+
+.sidebarHeadings {
+    display: none;
+}
+
+.sidebarHeadings :hover{
+    display: inline-block;
+}
+
+.content{
+    display: inline-block;
+    position: relative;
+    /* text-align: center; */
+    /* padding-left: 30vw; */
+    left: 10vw;
+}
+
+
+
+.logo1{
+    position: relative;
+    margin-bottom: 30px;
+    width: 30px;
+    height: 4.5vh;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.logo2, .logo3, .logo4, .logo5 {
+    position: relative;
+    width: 30px;
+    height:5vh;
+    /* margin: 5px auto 40px auto; */
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.logo6{
+    position: relative;
+    margin-bottom: 30px;
+    width: 23px;
+    height: 5vh;
+    /* margin-left: 5px; */
+    margin-left: 43px;
+}
+
+.logo1:hover, .logo2:hover, .logo3:hover, .logo4:hover, .logo5:hover, .logo6:hover{
+    top: -6px;
+    left: 3px;
+}
+
+
+
+
+
+

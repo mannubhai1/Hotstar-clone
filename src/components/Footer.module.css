@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    width: 100%;
+    margin-top: 50vh;
+    /* margin-bottom: 2vh; */
+    position: relative;
+    display: flex;
+    left: 6vw;
+    bottom: 0;
+    /* top: 0; */
+    flex-wrap: nowrap;
+    /* background-color: green; */
+    /* color: black; */
+    white-space: nowrap;
+    justify-content: space-between;
+}
+
+.footer > div{
+    /* display: flex; */
+    /* background-color: black; */
+    width: 300px;
+
+    margin: 10px;
+    text-align: left;
+    line-height: 10px;
+    font-size: 14px;
+}
+
+.tick{
+    height: 2.5vh;
+    display: inline-block;
+    margin-right: 9px;
+    margin-top: 4px;
+    margin-left: 6px;
+    width: 2.5vh;
+}
+
+.mainli{
+    color: white;
+    margin: 20px 30px 40px 30px;
+}
+
+li{
+    color: #ABC7E3;
+    margin: 20px 30px;
+}
+
+.foot{
+    color: #ABC7E3;
+    text-align: center;
+    margin: 40px 25px 10px 5px ;
+}
+
+.foot2{
+    color: #ABC7E3;
+    text-align: center;
+    margin: 10px 25px 10px 30px ;
+}
+
+
+li .tw{
+    display: inline-block;
+    width: 5vh;
+    height: 5vh;
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+li .fb{
+    display: inline-block;
+    width: 8vh;
+    height: 10vh;
+    margin-top: 0;
+    margin-left: 5px;
+}
