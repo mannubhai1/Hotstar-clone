@@ -27,42 +27,4 @@ function Caras() {
     )
 }
 
-// function Caras() {
-
-
-//     return (
-//         <HeroSlider
-//             slidingAnimation="left_to_right"
-//             orientation="horizontal"
-//             initialSlide={1}
-//             onBeforeChange={(previousSlide, nextSlide) =>
-//                 console.log("onBeforeChange", previousSlide, nextSlide)
-//             }
-//             onChange={(nextSlide) => console.log("onChange", nextSlide)}
-//             onAfterChange={(nextSlide) => console.log("onAfterChange", nextSlide)}
-//             style={{
-//                 backgroundColor: "rgba(0, 0, 0, 0.33)"
-//             }}
-//             settings={{
-//                 slidingDuration: 250,
-//                 slidingDelay: 100,
-//                 shouldAutoplay: true,
-//                 shouldDisplayButtons: true,
-//                 autoplayDuration: 1000,
-//                 height: "100vh"
-//             }}
-//         >
-//             {data.movies.filter(m => m.type === "new").map(movie => {
-//                 return <Slide
-//                     background={{
-//                         backgroundImage: `{movie.movieCard}`,
-//                         backgroundAttachment: "fixed"
-//                     }}
-//                 />
-//             })}
-//             <Nav />
-//         </HeroSlider>
-//     )
-// }
-
 export default Caras

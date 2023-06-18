@@ -1,5 +1,5 @@
 .main{
-    height: 100vh;
+    height: 92.5vh;
     object-fit:contain;
     background-repeat: initial;
     background-size: 100vw 100vh;
@@ -27,7 +27,7 @@
     display: flex;
     font-size: 2rem;
     font-weight: 600;
-    height: 8vh;
+    height: 7.5vh;
     background-color: rgb(8 8 23);
     /* align-items: center; */
     justify-content: space-between;
@@ -43,35 +43,44 @@
 .btn1 {
     position: relative;
     background-color: white;
-    border: 1px solid black;
+    border: 1.5px solid blue;
     color: black;
     border-radius: 3px;
     text-align: center;
     text-decoration: none;
-    padding: 3px 20px 3px 20px;
+    padding: 3px 23px 3px 23px;
     display: inline-block;
-    font-size: 16px;
-    margin: 0.4vh 0.2vh;
+    font-size: 20px;
+    margin: 2vh 0.5vh;
     cursor: pointer;
-    left: -95vh;
-    /* z-index: -1; */
+    left: -40vw;
   }
   
   .btn2 {
     position: relative;
     background-color: black;
-    border: 1px solid white;
+    border: 1.5px solid gold;
     color: white;
     border-radius: 3px;
     text-align: center;
     text-decoration: none;
-    padding: 3px 20px 3px 20px;
+    padding: 5px 20px 5px 20px;
     display: inline-block;
-    font-size: 16px;
-    margin: 0.4vh 0.2vh;
+    font-size: 19px;
+    margin: 2vh 0.5vh;
     cursor: pointer;
-    left: -92vh;
+    left: -39vw;
     opacity: 0.7;
+  }
+
+  .btn1:hover{
+    top: -1px;
+    left: -39.8vw;
+  }
+
+  .btn2:hover{
+    left: -38.8vw;
+    top: -1px;
   }
 
   p{
@@ -82,11 +91,25 @@
     color: white;
   }
 
-  p .desc{
+  .fav{
+    position: relative;
+    /* right: 5vw; */
+    top: 2vh;
+    left: -37vw;
+  }
+
+  .fav:hover{
+    top: 1.7vh;
+    left: -36.8vw;
+  }
+
+  .desc{
     display: inline-block;
-    justify-content: left;
-    width: 60vw;
+    position: relative;
+    left: -24vw;
+    width: 50vw;
     text-align: left;
+    font-size: 1.2rem;  
     margin: 10px 10px;
     word-wrap: break-word;
   }
@@ -106,8 +129,8 @@
     box-shadow: 0px 1px 3px #666666;
     font-family: Courier New;
     color:white;
-    font-size: 16px;
-    margin: 0.5vh 15px 1vh 8px;
+    font-size: 19px;
+    margin: 1vh 15px 1vh 8px;
     padding: 8px 13px 6px 16px;
     text-decoration: none;
 }
@@ -123,5 +146,6 @@
     background-image: -o-linear-gradient(top, #1a75ff, rgb(15, 15, 12));
     background-image: linear-gradient(to bottom, #1a75ff, rgb(15, 15, 12));
     text-decoration: none;
+     /* background-color: aliceblue; */
 
 }

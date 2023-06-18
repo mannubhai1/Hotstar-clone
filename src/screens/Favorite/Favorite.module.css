@@ -1,13 +1,38 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
+
+/* upar ka heading */
+
+.favhead{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Inter",sans-serif;
+}
+
+hr{
+    width: 100vw;
+    margin-left: 7vw;   
+}
+
+
+.main{
+    position: relative;
+    background-image: url(/public/home-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x : hidden;
+    height: 100vh;
+}
+
+/* side Bar */
+
 
 .mainlogo{
     max-width: 100%;
     width: 7vw;
-    /* max-width: 130px; */
     height: 9vh;
     margin-left: 10px;
     margin-top: 20px;
@@ -22,10 +47,7 @@
     font-family: "Inter",sans-serif;
     width: 20vw;
     height:28vh;
-    /* border-width: 0.5px; */
     color:rgba(255, 215, 0, 1);
-    /* border-color:rgba(65, 88, 81, 1); */
-    /* font-weight:bold; */
     border-top-left-radius:21px;
     border-top-right-radius:21px;
     border-bottom-left-radius:21px;
@@ -44,20 +66,10 @@
     top: -4px;
 }
 
-.big{
-    position: relative;
-    background-image: url(/public/home-background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-color: black; */
-    overflow-x : hidden;
-}
-
 .sidebar{
     position: fixed;
     bottom: 0;
     left: 0;
-    /* border: 3px solid #73AD21;    */
     min-width: 1px;
     height: 100vh;
     width: 15vw;
@@ -80,15 +92,6 @@
     display: inline-block;
 }
 
-.content{
-    display: inline-block;
-    position: relative;
-    /* text-align: center; */
-    /* padding-left: 30vw; */
-    left: 10vw;
-}
-
-
 
 .logo1{
     position: relative;
@@ -104,7 +107,6 @@
     position: relative;
     width: 30px;
     height:5vh;
-    /* margin: 5px auto 40px auto; */
     margin-left: 40px;
     margin-bottom: 30px;
 }
@@ -114,7 +116,6 @@
     margin-bottom: 30px;
     width: 23px;
     height: 5vh;
-    /* margin-left: 5px; */
     margin-left: 43px;
 }
 
@@ -125,6 +126,21 @@
 
 
 
+/* jo fav movies aa rhi hai wo */
 
+.media{
+    display: flex;
+    margin-left: 0.3vw;
 
+}
+.element{
+    display: flex;
+}
 
+.images{
+    display: inline-block;
+    height: 21vh;
+    width: 20 vw;
+    margin: 40px 0 40px 17px;
+    border: 1px solid skyblue;
+}

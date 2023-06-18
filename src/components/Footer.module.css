@@ -64,16 +64,16 @@ li{
 
 li .tw{
     display: inline-block;
-    width: 5vh;
-    height: 5vh;
+    width: 3vw;
+    height: 3vh;
     margin-top: 0;
     margin-left: 20px;
 }
 
 li .fb{
     display: inline-block;
-    width: 8vh;
-    height: 10vh;
+    width: 3vw;
+    height: 5vh;
     margin-top: 0;
     margin-left: 5px;
 }

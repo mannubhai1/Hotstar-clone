@@ -22,16 +22,16 @@
 
 .images{
     display: inline-block;
-    height: 23vh;
-    width: 18.8vw;
-    margin: 10px 20px;
+    height: 21vh;
+    width: 20 vw;
+    margin: 40px 0 40px 17px;
     border: 1px solid skyblue;
 }
 
 .movieheading{
     /* text-align: center; */
-    margin-left: 1.8vw;
-    font-size: 20px;
+    margin-left: 1.4vw;
+    font-size: 25px;
     margin-bottom: 0px;
     margin-top: 15px;
     display: block;

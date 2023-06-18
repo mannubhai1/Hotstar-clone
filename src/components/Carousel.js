@@ -3,6 +3,7 @@ import React from 'react'
 import data from '../data.json';
 import styles from './Carousel.module.css';
 import Caras from './Caras';
+import { Link } from 'react-router-dom';
 
 function Carousell() {
     return (
@@ -16,7 +17,9 @@ function Carousell() {
                     {data.movies.filter(m => m.type === "trending").map(movie => {
                         return (
                             <div className="element">
-                                <img src={movie.cardImg} className={styles.images} alt="movieCard" />
+                                <Link to={`/home/movie/${movie.id - 1 }`}>
+                                    <img src={movie.cardImg} className={styles.images} alt="movieCard" />
+                                </Link>
                             </div>
                         )
                     })}
@@ -27,7 +30,9 @@ function Carousell() {
                     {data.movies.filter(m => m.type === "recommend").map(movie => {
                         return (
                             <div className="element">
-                                <img src={movie.cardImg} className={styles.images} alt="movieCard" />
+                                <Link to={`/home/movie/${movie.id - 1 }`}>
+                                    <img src={movie.cardImg} className={styles.images} alt="movieCard" />
+                                </Link>
                             </div>
                         )
                     })}
@@ -38,7 +43,22 @@ function Carousell() {
                     {data.movies.filter(m => m.type === "original").map(movie => {
                         return (
                             <div className="element">
-                                <img src={movie.cardImg} className={styles.images} alt="movieCard" />
+                                <Link to={`/home/movie/${movie.id - 1 }`}>
+                                    <img src={movie.cardImg} className={styles.images} alt="movieCard" />
+                                </Link>
+                            </div>
+                        )
+                    })}
+                </div>
+                <p className={styles.movieheading}> New</p>
+                <div className={styles.media}>
+                    {/* <br /> */}
+                    {data.movies.filter(m => m.type === "new").map(movie => {
+                        return (
+                            <div className="element">
+                                <Link to={`/home/movie/${movie.id - 1 }`}>
+                                    <img src={movie.cardImg} className={styles.images} alt="movieCard" />
+                                </Link>
                             </div>
                         )
                     })}
