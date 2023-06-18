@@ -14,6 +14,21 @@ function Movie() {
   // console.log(data.movies[id]);  
   const [check, setCheck] = useState(false);
 
+
+  // setTimeout(() => {
+      
+    const message = () => {
+      setTimeout(() => {
+      if(check==false)
+        alert("Added to Favorites");
+      else
+        alert("Removed from Favorites");
+    },)
+  }
+
+  // }, 3000);
+
+
   useEffect(() => {
     var favs = JSON.parse(localStorage.getItem("favs"));
     if(favs===null){
@@ -45,7 +60,7 @@ function Movie() {
 
         <button className={styles.btn2} > Trailer </button>
 
-        <button className={styles.fav} onClick={()=>{favoriteMovie(id);setCheck(!check)}}><img src={!check?"/favorite-heart-love-svgrepo-com.svg":"/heart-filled-svgrepo-com.svg"} alt="fav" /> </button> 
+        <button className={styles.fav} onClick={()=>{favoriteMovie(id); message();setCheck(!check)}}><img src={!check?"/favorite-heart-love-svgrepo-com.svg":"/heart-filled-svgrepo-com.svg"} alt="fav" /> </button> 
 
         <p>{data.movies[id].subTitle}</p>
 

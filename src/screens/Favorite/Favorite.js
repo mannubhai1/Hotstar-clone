@@ -51,8 +51,7 @@ const Favorite = () => {
                     </a>
                 </nav>
             </div>
-            {/* <div className={styles.favmovies}> */}
-                <div className={styles.media}>
+            <div className={styles.media}>
                     {movies.map(id=>{
                         return (
                             <div className={styles.element}>
@@ -61,9 +60,8 @@ const Favorite = () => {
                                 </Link>
                             </div>
                         )
-                })}
-                </div>
-            {/* </div> */}
+                    })}
+            </div>
     </div>
     </>
   )
