@@ -5,13 +5,14 @@ import styles from './Caras.module.css'
 
 function Caras() {
     const [index, setIndex] = useState(0);
-    let movies = data.movies.filter(m => m.type === "new");
+    let movies = data.movies.filter(m => m.latest === "latest");
     const next = useCallback(() => {
         setIndex((index + 1) % movies.length);
     }, [index, movies])
 
     function prev() {
-        setIndex((index - 1) % movies.length);
+        if(index === 0) setIndex(movies.length - 1);
+        else setIndex((index - 1) % movies.length);
     }
     useEffect(() => {
         const interval = setInterval(() => {

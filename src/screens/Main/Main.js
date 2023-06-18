@@ -4,12 +4,13 @@ import Footer from '../../components/Footer'
 import Carousell from '../../components/Carousel'
 import { Link } from 'react-router-dom'
 
+
 const Main = () => {
     return (
         <div className={styles.big}>
             <div className={styles.sidebar}>
                 <img src="./disney-hotstar-1.jpg" className={styles.mainlogo} alt="main logo" />
-                <a href="/home" class={styles.buttonClass}> Upgrade {'>'}</a>
+                <a href="/home" className={styles.buttonClass}> Upgrade {'>'}</a>
                 <nav className={styles.navbar}>
                     <Link to = "/home/favorite">
                         <img src="./logo1.svg" className={styles.logo1} alt="" />

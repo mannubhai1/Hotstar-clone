@@ -1,12 +1,15 @@
-import React from 'react'
+import React,{useEffect, useState} from 'react'
 import styles from "./Favorite.module.css";
 import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux';
 import data from '../../data.json';
 
 const Favorite = () => {
-
-    const id = useSelector(state => state.movies);
+    const [movies, setMovies] = useState([]);
+    const movieSet = useSelector(state => state.movies);
+    useEffect(() => {
+        setMovies(movieSet)
+    }, [movieSet])
 
   return (
     <>
@@ -48,24 +51,30 @@ const Favorite = () => {
                     </a>
                 </nav>
             </div>
-            <div className="favmovies">
-                {/* <p className={styles.movieheading}> New</p> */}
+            {/* <div className={styles.favmovies}> */}
                 <div className={styles.media}>
-                    {/* <br /> */}
-                    {data.movies.filter((m) => m.Id === id).map(movie => {
+                    {movies.map(id=>{
                         return (
-                            <div className="element">
-                                <Link to={`/home/movie/${movie.id - 1 }`}>
-                                    <img src={movie.cardImg} className={styles.images} alt="movieCard" />
+                            <div className={styles.element}>
+                                <Link to={`/home/movie/${id}`}>
+                                    <img src={data.movies[id].cardImg} className={styles.images} alt="movieCard" />
                                 </Link>
                             </div>
                         )
-                    })}
+                })}
                 </div>
-            </div>
+            {/* </div> */}
     </div>
     </>
   )
 }
 
 export default Favorite
+
+// return (
+//     <div className={styles.element}>
+//         <Link to={`/home/movie/${movie.id - 1 }`}>
+//             <img src={movie.cardImg} className={styles.images} alt="movieCard" />
+//         </Link>
+//     </div>
+// )

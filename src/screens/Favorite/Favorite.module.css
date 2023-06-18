@@ -144,3 +144,11 @@ hr{
     margin: 40px 0 40px 17px;
     border: 1px solid skyblue;
 }
+
+
+.media{
+    display: flex;
+    margin-left: 2vw;
+    justify-content: center;
+    flex-wrap: wrap;
+}

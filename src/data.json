@@ -17,7 +17,8 @@
         "subTitle": "2006 • 1h 19m • Family, Comedy, Kids",
         "title": "A tail of two kitties",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/50B933E83609BEEFEDFA177A6D96DBFA7804C14F70A0B5AB314E892E65498ACF/scale?width=1440&aspectRatio=1.78",
-        "type": "new"
+        "type": "new",
+        "latest": "latest"
     },
     {   
         "id":3,
@@ -47,7 +48,8 @@
         "subTitle": "2020 • 1h 49m • Family, Comedy, Fantasy, Animation, Music",
         "title": "Soul",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E837DDE901CD036DD87A00F2D63E2F2458FAA798E62BE91F973AECCEA313A67E/scale?width=1440&aspectRatio=1.78",
-        "type": "original"
+        "type": "original",
+        "latest": "latest"
     },
     {
         "id":6,
@@ -67,7 +69,8 @@
         "subTitle": "2018 • 1h 58m • Science Fiction, Family, Animation, Action-Adventure",
         "title": "Incredibles 2",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2041CE26663867FC4EF20377B8625BD629E619452E23BCDB1AB259DD475C2EA1/scale?width=1440&aspectRatio=1.78",
-        "type": "recommend"
+        "type": "recommend",
+        "latest": "latest"
     },
     {
         "id":8,
@@ -137,7 +140,8 @@
         "subTitle": "2006 - 2013 • 5 Seasons • Kids, Animation",
         "title": "Mickey mouse",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4FF3FCD567F0263430DFC33B9489CE2799AE33B50AD553DE65F03B3EA2E19828/scale?width=1440&aspectRatio=1.78",
-        "type": "trending"
+        "type": "trending",
+        "latest": "latest"
     },
     {
         "id":15,
